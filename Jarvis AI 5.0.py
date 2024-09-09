@@ -1,5 +1,4 @@
-#JARVIS mark 12  python 3.5.1 version
-#JUST.A.RATHER.VERY.INTELEGENT.SYSTEM.
+
 
 import datetime
 import os
@@ -342,7 +341,7 @@ while 1:
 					break
         # ask jarvis who made him
 		if esa in ("who made you","who coded you","whos your owner","whos your coder"):
-				q = random.choice(("Sergei did, who is this then?!? who the fuck are you ahh help AI kidnapper!!!","didnt you or is this not sergei","my owners name is sergei who the hell is this where's sergei?!?!"))
+				q = random.choice(("brendan did, who is this then?!? who the fuck are you ahh help AI kidnapper!!!","didnt you or is this not Brendan","my owners name is Brendan who the hell is this where's BRendan?!?!"))
 				print (q)
 				os.system("say '"+q+"'")
 				break
